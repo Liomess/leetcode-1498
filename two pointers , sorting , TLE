@@ -11,4 +11,6 @@ class Solution:
                         count+=2**mid
                     else:
                         count+=1
+                else:
+                    break
         return count%((10**9)+7)
